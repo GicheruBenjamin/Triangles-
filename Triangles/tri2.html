@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: red;
+            width: 5px; height: 10px;
+            animation-name: zac;
+            animation-duration: 5s;
+            animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+            animation-delay: 5ms;
+            animation-fill-mode: both;
+            animation-iteration-count: 2.5;
+            animation-direction: normal;
+        }
+        @keyframes zac{
+            0% {opacity: 0;}
+            50%{opacity: .5;}
+            100%{opacity: 1}
+        }
+    </style>
+</head>
+<body>
+    <span>&#9650; Up Triangle</span>
+    <span>&#9660; Down Triangle</span>
+    <span>&#9664; Left Triangle</span>
+    <span>&#9654; Right Triangle</span>
+</body>
+</html>
